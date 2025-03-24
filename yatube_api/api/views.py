@@ -5,7 +5,8 @@ from rest_framework import mixins
 from rest_framework import filters
 
 from posts.models import Post, Group, Follow
-from posts.serializers import PostSerializer, GroupSerializer, CommentSerializer, FollowSerializer
+from posts.serializers import PostSerializer, GroupSerializer
+from posts.serializers import CommentSerializer, FollowSerializer
 from .permissions import AuthorOrReadOnly
 
 
